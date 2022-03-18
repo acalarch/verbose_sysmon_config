@@ -1,0 +1,32 @@
+<Sysmon schemaversion="4.81">
+<EventFiltering>
+<DriverLoad onmatch="exclude">
+</DriverLoad>
+<NetworkConnect onmatch="exclude">
+</NetworkConnect>
+<ProcessCreate onmatch="exclude">
+</ProcessCreate>
+<ImageLoad onmatch="exclude">
+</ImageLoad>
+<RegistryEvent onmatch="exclude">
+</RegistryEvent>
+<FileCreate onmatch="exclude">
+</FileCreate>
+<FileCreateTime onmatch="exclude">
+</FileCreateTime>
+<ProcessTerminate onmatch="exclude">
+</ProcessTerminate>
+<DriverLoad onmatch="exclude">
+</DriverLoad>
+<CreateRemoteThread onmatch="exclude">
+</CreateRemoteThread>
+<RawAccessRead onmatch="exclude">
+</RawAccessRead>
+<ProcessAccess onmatch="exclude">
+</ProcessAccess>
+<WmiEvent onmatch="exclude">
+</WmiEvent>
+<DnsQuery onmatch="exclude">
+</DnsQuery>
+</EventFiltering>
+</Sysmon>
